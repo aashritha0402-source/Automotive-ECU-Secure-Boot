@@ -1,0 +1,26 @@
+# Cryptographic keys
+keys/
+*.pem
+
+# Compiled executables
+ecu_security
+*.exe
+*.out
+*.o
+
+# Generated firmware and signatures
+firmware/
+*.pkg
+*.sig
+
+# Security state
+state/
+
+# Simulation outputs
+*.vcd
+*.vvp
+access_test
+
+# Editor and operating system files
+.vscode/
+.DS_Store
